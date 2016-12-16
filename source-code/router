@@ -1,0 +1,17 @@
+#!/bin/bash
+
+##==============================================================================
+## Shortest Path Routing Algorithm
+##
+## @description: Run script for router.java
+## @author: Elisha Lai
+## @version: 1.0 25/11/2016
+##==============================================================================
+
+# Number of Parameters: 4
+# Parameter:
+#    $1: <router_id>
+#    $2: <nse_host>
+#    $3: <nse_port>
+#    $4: <router_port>
+java router "$@"
